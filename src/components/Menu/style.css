@@ -1,4 +1,6 @@
 .yalo-menu {
+  position: fixed;
+  height: 100%;
   flex: 1;
   max-width: 300px;
   padding: 20px;
@@ -8,6 +10,7 @@
   color: #FFFFFF;
   background-color: #02d09d;
   overflow-x: hidden;
+  z-index: 1000;
 }
 
 .yalo-menu-title {
