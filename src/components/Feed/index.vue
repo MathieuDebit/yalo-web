@@ -1,10 +1,6 @@
 <template>
-  <div class="yalo-body">
-    <YaloHeader />
-
-    <YaloFeed />
-
-    <YaloNewMessage />
+  <div class="yalo-feed">
+    feed
   </div>
 </template>
 
