@@ -1,0 +1,73 @@
+.yalo-menu {
+  flex: 1;
+  max-width: 300px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 22px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #02d09d;
+  overflow-x: hidden;
+}
+
+.yalo-menu-title {
+  margin: 0 0 -180px 0;
+  position: relative;
+  top: -40px;
+  left: -32px;
+  font-size: 150px;
+}
+
+.yalo-menu-title-o {
+  font-size: 200px;
+}
+
+.yalo-menu-title:after {
+  content: url('../../assets/icons/yalo-line_white.svg');
+  position: relative;
+  top: -130px;
+  left: 92px;
+}
+
+.yalo-menu-participants {
+  padding-bottom: 25px;
+  text-align: center;
+  border-bottom: 2px solid #FFFFFF;
+}
+
+.yalo-menu-participants-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 7px;
+  border-radius: 100%;
+  color: #0a1424;
+  background-color: #FFFFFF;
+}
+
+.yalo-menu-userlist {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0;
+}
+
+.yalo-menu-user {
+  display: flex;
+  align-items: center;
+  margin: 0 15px 10px 0;
+}
+
+.yalo-menu-user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  margin-right: 10px;
+  background-color: #FFFFFF;
+}
+
+.yalo-menu-user-name {
+  vertical-align: middle;
+}
