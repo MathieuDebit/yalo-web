@@ -1,5 +1,7 @@
 <template>
   <div class="yalo-body">
+    <YaloHeader />
+
     body
   </div>
 </template>

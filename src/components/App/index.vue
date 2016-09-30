@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <yalo-menu></yalo-menu>
-    <yalo-body></yalo-body>
+    <YaloMenu />
+    <YaloBody />
   </div>
 </template>
 
