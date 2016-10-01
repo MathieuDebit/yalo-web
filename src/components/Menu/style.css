@@ -56,21 +56,3 @@
   width: 100%;
   padding: 0;
 }
-
-.yalo-menu-user {
-  display: flex;
-  align-items: center;
-  margin: 0 15px 10px 0;
-}
-
-.yalo-menu-user-avatar {
-  width: 30px;
-  height: 30px;
-  border-radius: 100%;
-  margin-right: 10px;
-  background-color: #FFFFFF;
-}
-
-.yalo-menu-user-name {
-  vertical-align: middle;
-}

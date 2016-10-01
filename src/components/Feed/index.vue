@@ -1,7 +1,7 @@
 <template>
   <div class="yalo-feed">
     <ul class="yalo-feed-messages-list">
-      <message
+      <Message
         v-for="message in messages"
         :message="message"
       />

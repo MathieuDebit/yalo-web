@@ -1,6 +1,9 @@
 <template>
   <li class="yalo-feed-message-item" :class="myMessage">
-    <div class="yalo-feed-message-item-avatar"></div>
+    <div
+      class="yalo-feed-message-item-avatar"
+      :style="{backgroundImage: 'url(' + getUserAvatar + ')'}"
+    />
 
     <div class="yalo-feed-message-item-wrapper">
       <p class="yalo-feed-message-item-time">

@@ -1,3 +1,5 @@
+import Store from '../../stores/store'
+
 export default {
   data () {
     return {
@@ -9,7 +11,11 @@ export default {
       e.preventDefault()
 
       if (this.message !== '') {
-        console.log(this.message)
+        Store.messages.push({
+          user: { name: Store.user.name },
+          text: this.message,
+          time: new Date()
+        })
 
         this.message = ''
       }

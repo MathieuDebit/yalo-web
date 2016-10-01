@@ -27,6 +27,7 @@
   background-repeat: no-repeat;
   border: 0;
   outline: none;
+  cursor: pointer;
 }
 
 .yalo-new-message-input {

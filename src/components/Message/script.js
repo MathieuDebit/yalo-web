@@ -14,13 +14,26 @@ export default {
     getMessageDate () {
       const currentTime = new Date()
       const time = new Date(this.message.time)
-      const hourDisplay = time.getHours() + ':' + time.getMinutes()
+      const hourDisplay = time.getHours() + ':' + ('0' + time.getMinutes()).substr(-2)
 
       if (time.getUTCDate() === currentTime.getUTCDate()) {
         return hourDisplay
       } else {
         return time.toDateString() + ' - ' + hourDisplay
       }
+    },
+    getUserAvatar () {
+      let userAvatar = 'http://ddi2019-chat.herokuapp.com/default.jpg'
+
+      const user = this.state.users.filter((user) =>
+        user.name === this.message.user.name
+      )[0]
+
+      if (user && user.avatar) {
+        userAvatar = user.avatar
+      }
+
+      return userAvatar
     }
   }
 }
