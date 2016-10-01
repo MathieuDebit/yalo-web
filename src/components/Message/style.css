@@ -1,0 +1,50 @@
+.yalo-feed-message-item {
+  display: flex;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.yalo-feed-message-item-avatar {
+  width: 70px;
+  height: 70px;
+  margin: 25px 30px 0 0;
+  border-radius: 100%;
+  border: 3px solid #02d09d;
+  box-sizing: border-box;
+  background-image: url('../../assets/users/06.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.yalo-feed-message-item-wrapper {
+}
+
+.yalo-feed-message-item-time {
+  font-size: 16px;
+  font-weight: lighter;
+  margin: 0 0 5px;
+}
+
+.yalo-feed-message-item-content {
+  min-width: 110px;
+  width: fit-content;
+  max-width: 450px;
+  min-height: 70px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  background-color: #e1e6ef;
+}
+
+.yalo-feed-message-me {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+.yalo-feed-message-me .yalo-feed-message-item-avatar {
+  margin: 25px 0 0 30px;
+}
+
+.yalo-feed-message-me .yalo-feed-message-item-content {
+  background-color: rgba(2, 208, 157, .2);
+}
