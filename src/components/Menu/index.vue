@@ -5,16 +5,16 @@
     </h1>
 
     <div class="yalo-menu-participants">
-      <div class="yalo-menu-participants-count">24</div>
+      <div class="yalo-menu-participants-count">{{ usersCount }}</div>
 
-      participants
+      {{ participantDisplay }}
     </div>
 
     <ul class="yalo-menu-userlist">
-      <li class="yalo-menu-user">
+      <li class="yalo-menu-user" v-for="user in state.users">
         <div class="yalo-menu-user-avatar"></div>
 
-        <div class="yalo-menu-user-name">Mathieu</div>
+        <div class="yalo-menu-user-name">{{ user.name }}</div>
       </li>
     </ul>
   </div>
